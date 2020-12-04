@@ -1,4 +1,4 @@
-d3.json(Entrega-\practica_airbnb_eva.json')
+d3.json('practica_airbnb_eva.json')
     .then((featureCollection) => {
         drawMap(featureCollection);
     });
