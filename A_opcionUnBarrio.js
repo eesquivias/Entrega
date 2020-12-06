@@ -87,7 +87,7 @@ function drawMap(featureCollection) {
         .append ('svg')
         .attr ('width',400)
         .attr ('height',450)
-}
+
 var categories =features[0].properties.avgbedrooms.map(function(d) {return d.bedrooms})
  
     var scaleX= d3.scaleBand()
@@ -169,8 +169,5 @@ svg.append('g')
         .style("font-size", "14px") 
         .text("Total pisos")
         .attr ('font-weight','bold')
-        .attr ('font-family','calibri') ;
-
-    
-
+        .attr ('font-family','calibri') 
 }
